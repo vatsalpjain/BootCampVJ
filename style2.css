@@ -1,0 +1,32 @@
+body {
+    background-color:beige;
+}
+
+p {
+    color:rgb(8, 10, 115);
+}
+
+.firstp {
+    color:rgb(224, 0, 198);
+}
+
+.secondp {
+    color:rgb(11, 130, 37);
+}
+
+#id1{
+    color:rgb(221, 17, 74)
+}
+
+#id2{
+    color:rgb(32, 118, 255)
+}
+
+#spanid1 {
+    padding:8px;
+    margin:50px;
+}
+
+div {
+    display:inline
+}
