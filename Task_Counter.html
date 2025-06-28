@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      id="page-container"
+      class="bg-gradient-to-br from-blue-100 to-blue-300 min-h-screen flex flex-col justify-center items-center"
+    >
+    <div id="counter-container" class="h-[450px] w-[450px] bg-red-200 m-20 p-10 flex flex-col items-center rounded-3xl">
+        <div id="display" class="bg-green-400 p-10 w-64 rounded-2xl flex justify-center">
+        <span id="count"class="text-6xl text-black">00</span>
+        </div>
+        <div id="buttons" class="mt-24 w-80 flex justify-between">
+        <button id="increment" class="hover:bg-blue-400 active:bg-blue-600 w-20 h-20 bg-blue-500 rounded-full text-2xl font-bold flex items-center justify-center">+</button>
+        <button id="decrement" class="hover:bg-blue-400 active:bg-blue-600 w-20 h-20 bg-blue-500 rounded-full text-3xl font-bold flex items-center justify-center">-</button>
+        <button id="reset" class="hover:bg-blue-400 active:bg-blue-600 h-20 w-[120px] bg-blue-500 rounded-full text-2xl flex items-center justify-center">Reset</button>
+        </div>
+    </div>
+    </div>
+    <script src="Task_Counter.js"></script>
+  </body>
+</html>
